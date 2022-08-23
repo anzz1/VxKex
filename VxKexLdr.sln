@@ -49,7 +49,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtendedDlls", "ExtendedDll
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KexComponents", "KexComponents", "{7457560B-11A4-45FE-919A-52760C90A533}"
 	ProjectSection(SolutionItems) = preProject
-		AppSpecificHacks.txt = AppSpecificHacks.txt
 		ChangeLog.txt = ChangeLog.txt
 		CompatList.txt = CompatList.txt
 		Readme.txt = Readme.txt

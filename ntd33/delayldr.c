@@ -20,7 +20,7 @@ PVOID WINAPI LdrResolveDelayLoadedAPI(
 
 void __fastfail(unsigned int code);
 
-__int64 WINAPI LdrGetDllFullName(HMODULE DllHandle, UNICODE_STRING *FileName)
+NTSTATUS WINAPI LdrGetDllFullName(HMODULE DllHandle, UNICODE_STRING *FileName)
 {
 	GetModuleFileNameW(DllHandle, FileName->Buffer, FileName->Length);
 	switch(GetLastError()) {
