@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exports.c">
+    <ClCompile Include="winht33.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="winht33.c">
+    <ClCompile Include="exports.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
