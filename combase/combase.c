@@ -98,6 +98,27 @@ DLLAPI HRESULT WindowsStringHasEmbeddedNull(
 	return S_OK;
 }
 
+DLLAPI HRESULT WindowsPreallocateStringBuffer(
+	UINT32 length,
+	WCHAR **charBuffer,
+	HANDLE *bufferHandle)
+{
+	return E_NOTIMPL;
+}
+
+DLLAPI HRESULT WindowsPromoteStringBuffer(
+	HANDLE bufferHandle,
+	HSTRING* string)
+{
+	return E_NOTIMPL;
+}
+
+DLLAPI HRESULT WindowsDeleteStringBuffer(
+	HANDLE bufferHandle)
+{
+	return E_NOTIMPL;
+}
+
 DLLAPI HRESULT SetRestrictedErrorInfo(
 	PVOID pRestrictedErrorInfo)
 {

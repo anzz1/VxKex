@@ -11,6 +11,9 @@ EXPORTS
 	WindowsCreateStringReference
 	WindowsIsStringEmpty
 	WindowsStringHasEmbeddedNull
+	WindowsPreallocateStringBuffer
+	WindowsPromoteStringBuffer
+	WindowsDeleteStringBuffer
 	SetRestrictedErrorInfo
 	GetRestrictedErrorInfo
 	RoOriginateError
